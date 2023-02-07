@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = ({ env }) => ({
   connection:
-    env.NODE_ENV === "PRODUCTION"
+    env("NODE_ENV", "DEVELOPMENT") === "PRODUCTION"
       ? {
           client: "postgres",
           connection: {
