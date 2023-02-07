@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_content_embeds",
+  "info": {
+    "displayName": "embed"
+  },
+  "options": {},
+  "attributes": {
+    "embed": {
+      "type": "customField",
+      "customField": "plugin::oembed.oembed"
+    }
+  }
+}
