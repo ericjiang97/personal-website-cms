@@ -2,7 +2,6 @@ const path = require("path");
 
 module.exports = ({ env }) => {
   const isProduction = env("NODE_ENV", "DEVELOPMENT") === "production";
-  console.log(isProduction);
   return {
     connection: isProduction
       ? {
