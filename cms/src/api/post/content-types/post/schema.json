@@ -22,6 +22,9 @@
         "content.embed",
         "content.image"
       ]
+    },
+    "date": {
+      "type": "datetime"
     }
   }
 }
